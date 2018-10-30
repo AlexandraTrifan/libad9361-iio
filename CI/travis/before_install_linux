@@ -12,5 +12,6 @@ else
 	DIST_SUFFIX="$LDIST"
 fi
 
-wget http://swdownloads.analog.com/cse/travis_builds/master_latest_libiio${DIST_SUFFIX}.deb
-sudo dpkg -i ./master_latest_libiio${DIST_SUFFIX}.deb
+#wget http://swdownloads.analog.com/cse/travis_builds/master_latest_libiio${DIST_SUFFIX}.deb
+wget http://swdownloads.analog.com/cse/travis_builds/rgetz-patch-2_libiio-0.15.g2071150-Linux-trusty.deb
+sudo dpkg -i ./rgetz-patch-2_libiio-0.15.g2071150-Linux-trusty.deb
